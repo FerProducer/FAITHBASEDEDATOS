@@ -1,4 +1,4 @@
-const scriptURL = 'TU_URL_SCRIPT_WEBAPP';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwT2E9uNS9PtvygQKb3esT7nxgEC3frZ8H1k1CnGrL1C2r5Cyz_WRdnlx8zeQ9I9Gs0/exec';
 
 // Registro
 document.getElementById('registerForm')?.addEventListener('submit', async e => {
