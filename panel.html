@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAITHGYM - Mi panel</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <h1>FAITHGYM - Mi cuenta</h1>
+</header>
+<section class="hero">
+  <h2>Bienvenido, <span id="userName"></span></h2>
+  <p>Estado de membresía: <span id="status"></span></p>
+  <p>Tipo de membresía: <span id="type"></span></p>
+  <h3>Contenido exclusivo</h3>
+  <ul>
+    <li><a href="#">Rutinas PDF</a></li>
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Dietas</a></li>
+  </ul>
+  <h3>Historial de pagos</h3>
+  <div id="payments"></div>
+  <button onclick="logout()">Cerrar sesión</button>
+</section>
+<script src="js/main.js"></script>
+</body>
+</html>
