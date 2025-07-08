@@ -1,6 +1,6 @@
 function doPost(e) {
   const data = JSON.parse(e.postData.contents);
-  const ss = SpreadsheetApp.openById('ID_DE_TU_HOJA');
+  const ss = SpreadsheetApp.openById('1F45vywnlAa3s66OAo1Q3IGuz6URKCGj6RIOCCkK4b20');
   const membresias = ss.getSheetByName('Membresías');
   if(data.action == "register") {
     const user = Utilities.getUuid().slice(0,8);
